@@ -1,0 +1,92 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: bolder;
+  }
+  #Home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+  }
+  .swiper {
+    width: 100vw;
+    height: 60vh;
+  }
+  .swiper-slide img{
+    width: 100%;
+    
+  }
+   .navbar{
+     position: absolute;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    background-color: transparent;
+    color: black;
+    justify-content: flex-end;
+    z-index : 10;
+  }
+  .nav-items{
+    font-weight: bolder;
+  }
+  
+  .navbar ul li{
+    display: inline;
+    align-items: flex-end;
+    padding: 20px;
+    margin-right: 40px;
+  
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    
+  }
+  .search-panel{
+    position: absolute;
+    display: flex;
+    margin: 60vh auto auto 2vw;
+  }
+  .search-list li{
+    display: inline;
+    padding: 20px;
+  }
+  .search-bar{
+    position: absolute;
+    margin: 70vh auto auto 2vw;
+    
+  }
+  .search-bar-input{
+    width: 30vw;
+  }
+  #Featured{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+  }
+  
+  .navbar ul li :hover{
+    color: aqua;
+    font-weight: bolder;
+    background-color: black;
+  }
+  
+  .featured-spaces{
+    width: 20vw;
+    height: 8vh;
+    margin: 5vh auto auto 40vw;
+    background-color: #0984E3;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    border-radius: 7px;
+  }
+
+ 
